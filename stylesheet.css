@@ -1,3 +1,4 @@
+/* Navbar*/
 nav {
     display: grid;
     grid-gap: 0px;
@@ -13,7 +14,8 @@ nav {
     color: #fff;
     border-radius: 10px;
     padding: 10px;
-    font-size: 50%;
+    font-size: 10px;
+    text-align: center
 }
 
 .nav1 {
@@ -74,19 +76,22 @@ nav {
     grid-area: nav2
 }
 .nav3 {
-    grid-area: nav3
+    grid-area: nav3;
+    padding-top: 13px;
 }
 .nav4 {
-    grid-area: nav4
+    grid-area: nav4;
+    padding-top: 13px;
 }
 .nav5 {
-    grid-area: nav5
+    grid-area: nav5;
+    padding-top: 13px;
 }
 body {
     margin: auto;
 }
 
-
+/* Page Content*/
 .wrapper {
     display: grid;
     grid-gap: 10px;
@@ -100,12 +105,14 @@ body {
     background-color: #444;
     color: #fff;
     border-radius: 5px;
-    padding: 20px;
+    padding: 15px;
     font-size: 150%;
 }
 
 .header {
     background-color: #999;
+    margin-top: 10px;
+    text-align: center
 }
 
 
@@ -113,12 +120,18 @@ body {
     grid-area: sidebar;
     font-size: 100%;
     justify-self: start;
+    text-align: left;
+    padding: 10px;
+    margin-left: 10px;
+    
 }
 
 .content {
     grid-area: content;
     justify-self: center;
+    font-size: 18px;
 }
+
 
 .header {
     grid-area: header;
@@ -126,5 +139,17 @@ body {
 
 .apple {
     grid-area: apple;
+    font-size: 12px;
+    text-align: center
 }
 
+
+h2 {
+    text-align: center
+}
+
+
+ul {
+    margin: 0;
+    padding: 0;
+}
